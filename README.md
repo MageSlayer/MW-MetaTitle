@@ -19,15 +19,15 @@ Useful hint
 ===========
 Create a template called Seo, insert following wikitext.
 ``
-{{DISPLAYTITLE:{{{pagetitle}}} }}
-<seo title={{{pagetitle}}} metakeywords="{{{meta_keywords}}}"/>
+{{DISPLAYTITLE:{{{pagetitle}}} }}  
+<seo title={{{pagetitle}}} metakeywords="{{{meta_keywords}}}"/>  
 ``
 
 Now you can use more Wiki-flavoured style like following.
 ``
-{{seo
-|pagetitle=My Main Page
-|meta_keywords=super,long,increase,inches}}
+{{seo  
+|pagetitle=My Main Page  
+|meta_keywords=super,long,increase,inches}}  
 ``
 
 Changelog
