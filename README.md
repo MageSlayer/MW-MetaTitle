@@ -18,16 +18,30 @@ require_once('extensions/Add_HTML_Meta_and_Title.php');
 Useful hint
 ===========
 Create a template called Seo, insert following wikitext.
-``
-{{DISPLAYTITLE:{{{pagetitle}}} }}  
-<seo title={{{pagetitle}}} metakeywords="{{{meta_keywords}}}"/>  
+
+
+``text
+{{DISPLAYTITLE:{{{pagetitle}}} }}
+
+
+<seo title={{{pagetitle}}} metakeywords="{{{meta_keywords}}}"/>
+
+
 ``
 
 Now you can use more Wiki-flavoured style like following.
-``
-{{seo  
-|pagetitle=My Main Page  
-|meta_keywords=super,long,increase,inches}}  
+
+
+``text
+{{seo
+
+
+|pagetitle=My Main Page
+
+
+|meta_keywords=super,long,increase,inches}}
+
+
 ``
 
 Changelog
